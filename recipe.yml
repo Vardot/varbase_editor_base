@@ -1,0 +1,42 @@
+name: Varbase Editor Base
+description: A recipe to manage default installed modules, configs and permissions for Varbase editor functionality including CKEditor 5 with rich text editing capabilities.
+type: Varbase Editor
+install:
+  - anchor_link
+  - ace_editor
+  - ckeditor_bidi
+  - entity_embed
+  - extlink
+  - editor_advanced_link
+  - ckeditor_media_embed
+  - ckeditor_media_resize
+  - edit_media_modal
+  - linkit
+  - pathologic
+  - token
+  - token_filter
+  - ckeditor5_paste_filter
+  - ckeditor5_plugin_pack
+  - ckeditor5_plugin_pack_find_and_replace
+  - ckeditor5_premium_features
+  - ckeditor5_premium_features_fullscreen
+  - ckeditor5_premium_features_wproofreader
+  - ckeditor5_plugin_pack_free_wproofreader
+  - ckeditor_emoji
+config:
+  import:
+    ace_editor: '*'
+    pathologic: '*'
+    editor_advanced_link: '*'
+    ckeditor_media_embed: '*'
+    ckeditor_media_resize: '*'
+    edit_media_modal: '*'
+    ckeditor5_paste_filter: '*'
+  actions:
+    extlink.settings:
+      simpleConfigUpdate:
+        extlink_alert_text: ''
+        extlink_target: true
+    pathologic.settings:
+      simpleConfigUpdate:
+        protocol_style: 'path'
