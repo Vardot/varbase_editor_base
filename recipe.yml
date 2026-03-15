@@ -77,3 +77,25 @@ config:
     pathologic.settings:
       simpleConfigUpdate:
         protocol_style: 'path'
+    user.role.content_editor:
+      grantPermissions:
+        - 'use text format canvas_html_inline'
+        - 'use text format content_format'
+        - 'use text format full_html'
+    user.role.content_admin:
+      grantPermissions:
+        - 'use text format canvas_html_inline'
+        - 'use text format content_format'
+        - 'use text format full_html'
+    user.role.seo_admin:
+      grantPermissions:
+        - 'use text format canvas_html_inline'
+        - 'use text format content_format'
+        - 'use text format full_html'
+    user.role.site_admin:
+      grantPermissions:
+        - 'use text format canvas_html_block'
+        - 'use text format canvas_html_inline'
+        - 'use text format content_format'
+        - 'use text format easy_email'
+        - 'use text format full_html'
