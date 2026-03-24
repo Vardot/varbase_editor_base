@@ -56,8 +56,8 @@ config:
         extlink_exclude: ''
         extlink_include: ''
         extlink_exclude_noreferrer: ''
-        extlink_class: '0'
-        extlink_label: '(link is external)'
+        extlink_class: ext
+        extlink_label: '(opens in new window)'
         extlink_img_class: false
         extlink_css_exclude: ''
         extlink_css_include: ''
