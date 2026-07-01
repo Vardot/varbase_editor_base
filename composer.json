@@ -17,7 +17,7 @@
     "source": "http://cgit.drupalcode.org/varbase_editor_base"
   },
   "require": {
-    "drupal/core": "~11.3.0",
+    "drupal/core": "~11.4.0",
     "drupal/pathologic": "~2",
     "drupal/ckeditor_bidi": "~5",
     "drupal/ace_editor": "~2",
