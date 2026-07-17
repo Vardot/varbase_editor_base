@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0-beta2] - 2026-07-17
+### Changed
+- Update the CKEditor Media Resize constraint from `~1` to `~1.1.0` so plugin-less Composer solves cannot fall back to 1.0.0, which lacks Drupal core ~11.4 support ([#3611491](https://www.drupal.org/i/3611491)).
+- Update the version badge to `1.0.0-beta2` in `README.md`.
+
 ## [1.0.0-beta1] - 2026-07-09
 ### Changed
 - Update Drupal Core from ~11.3.0 to ~11.4.0 in the Varbase Editor Base recipe.
