@@ -33,7 +33,8 @@
     "drupal/entity_embed": "~1",
     "drupal/ckeditor5_paste_filter": "~1",
     "drupal/ckeditor5_plugin_pack": "~1.5.0",
-    "drupal/ckeditor_emoji": "~2"
+    "drupal/ckeditor_emoji": "~2",
+    "vardot/ckeditor5-media-embed-drupal": "~47.6.2"
   },
   "version": "1.0.x-dev"
 }
