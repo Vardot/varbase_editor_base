@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-09-06
+### Changed
+- Release the stable Varbase Editor Base 1.0.0 recipe with the Varbase 11.0.0 suite. No functional changes since 1.0.0-rc2.
+- Update the version badge to `1.0.0` in `README.md`.
+
 ## [1.0.0-rc2] - 2026-09-02
 ### Added
 - Require the `vardot/ckeditor5-media-embed-drupal` library at `~47.6.2`, the GPL-licensed
@@ -49,7 +54,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase Editor Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0-rc2...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0...1.0.x
+[1.0.0]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0-rc2...1.0.0
 [1.0.0-rc2]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0-rc1...1.0.0-rc2
 [1.0.0-rc1]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0-beta4...1.0.0-rc1
 [1.0.0-beta4]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0-beta3...1.0.0-beta4
