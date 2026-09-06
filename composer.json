@@ -36,5 +36,5 @@
     "drupal/ckeditor_emoji": "~2",
     "vardot/ckeditor5-media-embed-drupal": "~47.6.2"
   },
-  "version": "1.0.0"
+  "version": "1.0.x-dev"
 }
