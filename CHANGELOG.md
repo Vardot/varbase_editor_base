@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-09
+### Fixed
+- Ship the `content_format` and Canvas text formats, their editors and the Linkit profile in the recipe instead of relying on
+  `drupal_cms_content_type_base`, which Drupal CMS 2.2 removed ([#3629374](https://www.drupal.org/i/3629374)).
+### Changed
+- Update the version badge to `1.0.1` in `README.md`.
+
 ## [1.0.0] - 2026-09-06
 ### Changed
 - Release the stable Varbase Editor Base 1.0.0 recipe with the Varbase 11.0.0 suite. No functional changes since 1.0.0-rc2.
@@ -54,7 +61,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release of the Varbase Editor Base recipe.
 
-[Unreleased]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0...1.0.x
+[Unreleased]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.1...1.0.x
+[1.0.1]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0...1.0.1
 [1.0.0]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0-rc2...1.0.0
 [1.0.0-rc2]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0-rc1...1.0.0-rc2
 [1.0.0-rc1]: https://git.drupalcode.org/project/varbase_editor_base/-/compare/1.0.0-beta4...1.0.0-rc1
