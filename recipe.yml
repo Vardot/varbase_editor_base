@@ -23,8 +23,18 @@ install:
   - ckeditor5_premium_features_wproofreader
   - ckeditor5_plugin_pack_free_wproofreader
   - ckeditor_emoji
+  # The text formats and the Linkit profile drupal_cms_content_type_base used
+  # to provide, and the roles below are granted. That recipe was removed from
+  # Drupal CMS 2.2 and its last release requires Tagify 1, which no longer
+  # installs beside Drupal CMS.
+  - ckeditor5
+  - editor
+  - filter
+  - media
 config:
   import:
+    linkit:
+      - image.style.linkit_result_thumbnail
     ace_editor: '*'
     pathologic: '*'
     editor_advanced_link: '*'
